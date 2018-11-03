@@ -1,0 +1,32 @@
+/* pages/contact/contact.wxss */
+
+.group{
+  
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  background-color: white;
+  padding: 30rpx;
+}
+.group-list2{
+  padding: 0 100rpx;
+  border-left: 1rpx solid gray;
+  border-right: 1rpx solid gray; 
+}
+.group .group-item:active{
+  color: blueviolet
+}
+.HX{
+  border: 1rpx solid gray;
+  margin-top: 5rpx;
+}
+page{
+  background-color: rgb(128,128,128)
+}
+.contact{
+  background-color: white;
+  border-bottom: 1rpx solid gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+}

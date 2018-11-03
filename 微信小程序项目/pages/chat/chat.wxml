@@ -1,0 +1,22 @@
+<!--pages/chat/chat.wxml-->
+<view class='top'>
+  <view class='left'>
+    
+    <text class='left-text'>消息</text>
+  </view>
+  <view class='center'>
+    <text class='center-text'>Chat name</text>
+  </view>
+  <view class='right'>
+    <image src='/img/QQ截图20181102091439.png'></image>
+    <image src='/img/QQ截图20181102091509.png'></image>
+  </view>
+</view> 
+<view class='HX'></view>
+<view class='window-chat'>
+
+</view>
+<view class='bottom'>
+    <input type='text' confirm-type='send'></input>
+    <button type='primary' catchtap='send'>发送</button>
+</view>

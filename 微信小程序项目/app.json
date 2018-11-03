@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/found/found",
+    "pages/conversation/conversation",
+    "pages/contact/contact",
+   
+    "pages/set/set",
+    "pages/qun/qun",
+    "pages/taolunzu/taolunzu",
+    "pages/chat/chat"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ddd",
+    "navigationBarTitleText": "QQ",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "#000",
+    "selectedColor": "#aaa",
+    "backgroundColor": "#ddd",
+    "borderStyle": "#f00",
+    "list": [
+      {
+        "pagePath": "pages/conversation/conversation",
+        "text": "会话",
+        "iconPath": "/img/tab_icon_conversation.png",
+        "selectedIconPath": "/img/tab_icon_conversation_selected.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系人",
+        "iconPath": "/img/tab_icon_contact.png",
+        "selectedIconPath": "/img/tab_icon_contact_selected.png"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "text": "发现",
+        "iconPath": "/img/tab_icon_plugin.png",
+        "selectedIconPath": "/img/tab_icon_plugin_selected.png"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "text": "设置",
+        "iconPath": "/img/tab_icon_setup.png",
+        "selectedIconPath": "img/tab_icon_setup_selected.png"
+      }
+    ]
+  }
+}

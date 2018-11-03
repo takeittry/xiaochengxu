@@ -1,0 +1,25 @@
+<!--pages/qun/qun.wxml-->
+<view class='group'>
+  <view class='group-list'>
+    <view class='group-item' catchtap='toHaoyou'>
+     <text>好友</text>
+    </view>
+     
+  </view>
+  <view class='group-list2'> 
+    <navigator class='group-item'>
+     <text>群</text>
+    </navigator>
+    
+  </view>
+  <view class='group-list'>
+    <navigator class='group-item'>
+     <text>讨论组</text>
+    </navigator>
+  </view>
+</view>
+<view class='HX'></view>
+<view class='qun-item' wx:for="{{list}}" wx:key="index">
+  <image class='TX' src='{{item.img_url}}'></image>
+  <text class='qun-name'>{{item.qun_name}}</text>
+</view>
