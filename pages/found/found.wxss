@@ -1,0 +1,40 @@
+/* pages/found/found.wxss */
+page{
+  background-color: whitesmoke;
+}
+.img{
+  display: flex;
+  justify-content: space-between;
+}
+.img-item>image{
+  height: 175rpx;
+  width: 175rpx;
+  padding: 40rpx;
+  background-color: #D9DBE0;
+}
+.img-item{
+  border: 1rpx solid #ECEEF2;
+  border-bottom: none;
+}
+.HX{
+  border: 1rpx solid gray;
+  margin-top: 5rpx;
+  margin-top: -5rpx;
+  }
+  .news{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50rpx;
+  }
+  .news image{
+    width: 540rpx;
+    height: 370rpx;
+    margin-left: 100rpx;
+    box-shadow: 3px 3px 3px 5px #CADEF3;
+  } 
+  .news text{
+    margin-left: 40rpx;
+    margin-top: 30rpx;
+    font-size: 20px;
+  }
